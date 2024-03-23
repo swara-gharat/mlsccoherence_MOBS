@@ -1,0 +1,423 @@
+<html>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="bootstrap.css">
+    <head>
+        <title>Money Market Hub</title>
+    </head>
+
+
+
+
+    
+    <link rel="icon" type="image/x-icon" href="icons8-stock-market-64.png">
+    <body id="b1" style="background: #77A1D3; background: -webkit-linear-gradient(to right, #E684AE, #79CBCA, #77A1D3); background: linear-gradient(to right, #E684AE, #79CBCA, #77A1D3);">
+        
+        <div id="abcd">
+            <label id="l1" style=" font-family: 'Times New Roman', Times, serif;" >MONEY MARKET HUB</label>
+        </div>
+
+        <div>
+            <ul id="ul1">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#stocks">Stocks</a></li>
+                <li><a href="mf.html">Mutual Funds</a></li>
+                <li><a href="crypto.html">Crypto</a></li>
+                <li><a href="forex.html">Forex</a></li>
+                <li style="float:right"><a href="contactus.html">Contact Us</a></li>
+                <li style="float:right"><a class="active" href="aboutus.html">About Us</a></li>
+            </ul>
+        </div>
+     <!-- TradingView Widget BEGIN -->
+
+        <div>
+                <label id="l2">Market Overview</label>
+
+                <div class="tradingview-widget-container1">
+                    <div class="tradingview-widget-container__widget"></div>
+                    <div class="tradingview-widget-copyright"><a href="https://in.tradingview.com/markets/" rel="noopener" target="_blank"></a></div>
+                    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-overview.js" async>
+                    {
+                    "colorTheme": "dark",
+                    "dateRange": "12M",
+                    "showChart": true,
+                    "locale": "in",
+                    "largeChartUrl": "",
+                    "isTransparent": false,
+                    "showSymbolLogo": true,
+                    "showFloatingTooltip": false,
+                    "width": "400",
+                    "height": "660",
+                    "plotLineColorGrowing": "rgba(41, 98, 255, 1)",
+                    "plotLineColorFalling": "rgba(41, 98, 255, 1)",
+                    "gridLineColor": "rgba(240, 243, 250, 0)",
+                    "scaleFontColor": "rgba(106, 109, 120, 1)",
+                    "belowLineFillColorGrowing": "rgba(41, 98, 255, 0.12)",
+                    "belowLineFillColorFalling": "rgba(41, 98, 255, 0.12)",
+                    "belowLineFillColorGrowingBottom": "rgba(41, 98, 255, 0)",
+                    "belowLineFillColorFallingBottom": "rgba(41, 98, 255, 0)",
+                    "symbolActiveColor": "rgba(41, 98, 255, 0.12)",
+                    "tabs": [
+                    {
+                        "title": "Indices",
+                        "symbols": [
+                        {
+                            "s": "FOREXCOM:SPXUSD",
+                            "d": "S&P 500"
+                        },
+                        {
+                            "s": "FOREXCOM:NSXUSD",
+                            "d": "US 100"
+                        },
+                        {
+                            "s": "BSE:SENSEX",
+                            "d": "Bombay Stock Exchange"
+                        },
+                        {
+                            "s": "SKILLING:NASDAQ",
+                            "d": "Nikkei 225"
+                        },
+                        {
+                            "s": "BSE:BSE500",
+                            "d": "Fortune 500"
+                        },
+                        {
+                            "s": "NASDAQ:AAPL",
+                            "d": "apple"
+                        }
+                        ],
+                        "originalTitle": "Indices"
+                    },
+                    {
+                        "title": "Futures",
+                        "symbols": [
+                        {
+                            "s": "CME_MINI:ES1!",
+                            "d": "S&P 500"
+                        },
+                        {
+                            "s": "CME:6E1!",
+                            "d": "Euro"
+                        },
+                        {
+                            "s": "COMEX:GC1!",
+                            "d": "Gold"
+                        },
+                        {
+                            "s": "NYMEX:CL1!",
+                            "d": "Crude Oil"
+                        },
+                        {
+                            "s": "NYMEX:NG1!",
+                            "d": "Natural Gas"
+                        },
+                        {
+                            "s": "CBOT:ZC1!",
+                            "d": "Corn"
+                        }
+                        ],
+                        "originalTitle": "Futures"
+                    },
+                    {
+                        "title": "Bonds",
+                        "symbols": [
+                        {
+                            "s": "CME:GE1!",
+                            "d": "Eurodollar"
+                        },
+                        {
+                            "s": "CBOT:ZB1!",
+                            "d": "T-Bond"
+                        },
+                        {
+                            "s": "CBOT:UB1!",
+                            "d": "Ultra T-Bond"
+                        },
+                        {
+                            "s": "EUREX:FGBL1!",
+                            "d": "Euro Bund"
+                        },
+                        {
+                            "s": "EUREX:FBTP1!",
+                            "d": "Euro BTP"
+                        },
+                        {
+                            "s": "EUREX:FGBM1!",
+                            "d": "Euro BOBL"
+                        }
+                        ],
+                        "originalTitle": "Bonds"
+                    },
+                    {
+                        "title": "Forex",
+                        "symbols": [
+                        {
+                            "s": "FX:EURUSD",
+                            "d": "EUR/USD"
+                        },
+                        {
+                            "s": "FX:GBPUSD",
+                            "d": "GBP/USD"
+                        },
+                        {
+                            "s": "FX:USDJPY",
+                            "d": "USD/JPY"
+                        },
+                        {
+                            "s": "FX:USDCHF",
+                            "d": "USD/CHF"
+                        },
+                        {
+                            "s": "FX:AUDUSD",
+                            "d": "AUD/USD"
+                        },
+                        {
+                            "s": "FX:USDCAD",
+                            "d": "USD/CAD"
+                        }
+                        ],
+                        "originalTitle": "Forex"
+                    }
+                    ]
+                }
+                    </script>
+                </div>
+                <label id="l3">Top Gainer / Losers</label>
+                <!-- TradingView Widget END -->
+                <!-- TradingView Widget BEGIN -->
+                <div class="tradingview-widget-container2">
+                    <div class="tradingview-widget-container__widget"></div>
+                    <div class="tradingview-widget-copyright"><a href="https://in.tradingview.com/markets/stocks-india/" rel="noopener" target="_blank"></a> </div>
+                    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-hotlists.js" async>
+                    {
+                    "colorTheme": "dark",
+                    "dateRange": "12M",
+                    "exchange": "BSE",
+                    "showChart": true,
+                    "locale": "in",
+                    "largeChartUrl": "",
+                    "isTransparent": false,
+                    "showSymbolLogo": true,
+                    "showFloatingTooltip": false,
+                    "width": "420",
+                    "height": "660",
+                    "plotLineColorGrowing": "rgba(41, 98, 255, 1)",
+                    "plotLineColorFalling": "rgba(41, 98, 255, 1)",
+                    "gridLineColor": "rgba(240, 243, 250, 0)",
+                    "scaleFontColor": "rgba(106, 109, 120, 1)",
+                    "belowLineFillColorGrowing": "rgba(41, 98, 255, 0.12)",
+                    "belowLineFillColorFalling": "rgba(41, 98, 255, 0.12)",
+                    "belowLineFillColorGrowingBottom": "rgba(41, 98, 255, 0)",
+                    "belowLineFillColorFallingBottom": "rgba(41, 98, 255, 0)",
+                    "symbolActiveColor": "rgba(41, 98, 255, 0.12)"
+                }
+                    </script>
+                </div>
+            <!-- TradingView Widget END -->
+        </div>
+
+
+        <!-- Ticker Tape BEGIN -->
+        <div class="ticker" style="top:-1620px">
+            <div class="tradingview-widget-container__widget"></div>
+            <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+            {
+            "symbols": [
+            {
+                "proName": "FOREXCOM:SPXUSD",
+                "title": "S&P 500"
+            },
+            {
+                "proName": "FOREXCOM:NSXUSD",
+                "title": "US 100"
+            },
+            {
+                "proName": "FX_IDC:EURUSD",
+                "title": "EUR/USD"
+            },
+            {
+                "proName": "BITSTAMP:BTCUSD",
+                "title": "Bitcoin"
+            },
+            {
+                "proName": "BITSTAMP:ETHUSD",
+                "title": "Ethereum"
+            }
+            ],
+            "showSymbolLogo": true,
+            "colorTheme": "light",
+            "isTransparent": false,
+            "displayMode": "adaptive",
+            "locale": "in"
+        }
+            </script>
+        </div>
+        <!-- TradingView Widget END -->
+
+        <!-- TradingView Widget BEGIN -->
+        <div class="solo">
+                <div id="tradingview_25b3e"></div>
+                <div class="tradingview-widget-copyright"><a href="https://in.tradingview.com/symbols/BSE-SENSEX/" rel="noopener" target="_blank"></a></div>
+                <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+                <script type="text/javascript">
+                new TradingView.MediumWidget(
+                {
+                "symbols": [
+                [
+                    "BSE S&P SENSEX",
+                    "BSE:SENSEX|12M"
+                ]
+                ],
+                "chartOnly": false,
+                "width": "320",
+                "height": "300",
+                "locale": "in",
+                "colorTheme": "light",
+                "autosize": false,
+                "showVolume": false,
+                "hideDateRanges": false,
+                "hideMarketStatus": false,
+                "hideSymbolLogo": false,
+                "scalePosition": "right",
+                "scaleMode": "Normal",
+                "fontFamily": "-apple-system, BlinkMacSystemFont, Trebuchet MS, Roboto, Ubuntu, sans-serif",
+                "fontSize": "10",
+                "noTimeScale": false,
+                "valuesTracking": "1",
+                "changeMode": "price-and-percent",
+                "chartType": "line",
+                "container_id": "tradingview_25b3e"
+                }
+                );
+            </script>
+        </div>
+        <!-- TradingView Widget END -->
+
+        <!-- TradingView Widget BEGIN -->
+        <div class="solo2">
+            <div id="tradingview_1c477"></div>
+            <div class="tradingview-widget-copyright"><a href="https://in.tradingview.com/symbols/ECONOMICS-INGDP/" rel="noopener" target="_blank"></a></div>
+            <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+            <script type="text/javascript">
+            new TradingView.MediumWidget(
+            {
+            "symbols": [
+            [
+                "India GDP",
+                "ECONOMICS:INGDP|ALL"
+            ]
+            ],
+            "chartOnly": false,
+            "width": "320",
+            "height": "300",
+            "locale": "in",
+            "colorTheme": "light",
+            "autosize": false,
+            "showVolume": false,
+            "hideDateRanges": false,
+            "hideMarketStatus": false,
+            "hideSymbolLogo": false,
+            "scalePosition": "right",
+            "scaleMode": "Normal",
+            "fontFamily": "-apple-system, BlinkMacSystemFont, Trebuchet MS, Roboto, Ubuntu, sans-serif",
+            "fontSize": "10",
+            "noTimeScale": false,
+            "valuesTracking": "1",
+            "changeMode": "price-and-percent",
+            "chartType": "line",
+            "container_id": "tradingview_1c477"
+        }
+            );
+            </script>
+        </div>
+        <!-- TradingView Widget END -->
+     
+        
+        <div style="margin-top: -1500px;">
+            <svg >   
+                  <filter id="motion-blur-filter" filterUnits="userSpaceOnUse">  
+                    <feGaussianBlur stdDeviation="0 0"></feGaussianBlur>
+                  </filter>
+                </svg>            
+              
+                
+        </div>
+        <br><br>
+       
+        <div class="row">
+            
+            <div class="col-lg-3" style="margin-left: 80px;">
+                <div class="card" style="width: 18rem; margin: 30px;">
+                    <iframe width="290" height="215" src="https://www.youtube.com/embed/DK8krrDdx2k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <div class="card"  style="width: 18rem; margin: 30px;" >
+                    <iframe width="290" height="215" src="https://www.youtube.com/embed/4jT_RR6Y6ck" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <div class="card"  style="width: 18rem; margin: 30px;" >
+                    <iframe width="290" height="215" src="https://www.youtube.com/embed/RJC-j3H6REU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+            </div>                      
+        </div>
+        <div class="row">
+            <div class="col-lg-3" style="margin-left: 500px; top: -770px;"  >
+                <div class="card" style="width: 18rem; margin: 30px;" >
+                    <iframe width="290" height="215" id="cardShadow" src="https://www.youtube.com/embed/dtuPl7gIJlQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <div class="card"  style="width: 18rem; margin: 30px;" id="cardShadow" >
+                    <iframe width="290" height="215" src="https://www.youtube.com/embed/Dw15X6a6TzY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <div class="card"  style="width: 18rem; margin: 30px;" id="cardShadow" >
+                    <iframe width="290" height="215" src="https://www.youtube.com/embed/XfCl4TFxp04" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+            </div>                      
+        </div>
+        <div class="row">
+            <div class="col-lg-3" style="margin-left: 910px; top: -1538;" >
+                <div class="card" style="width: 18rem; margin: 30px;" id="cardShadow">
+                    <iframe width="290" height="215" src="https://www.youtube.com/embed/bHK52gmcmBA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <div class="card"  style="width: 18rem; margin: 30px;" id="cardShadow" >
+                    <iframe width="290" height="215" src="https://www.youtube.com/embed/wCKr3UNI7E8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <div class="card"  style="width: 18rem; margin: 30px;" id="cardShadow" >
+                    <iframe width="290" height="215" src="https://www.youtube.com/embed/RJC-j3H6REU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+            </div>                      
+        </div>
+        
+        <div class="news-container" style="position: relative; display: block; top: -1500px;" >
+            <div class="title">
+                Breaking News
+            </div>
+    
+            <ul >
+                <li style="font-size: 25px; font-style: italic; background-color: white;" >
+                    <center>
+                    <img src="images/adani2.png" width="60px" height="30px" style="border: solid 1px black; padding: 5px;">
+                    </center>
+                    <a href="https://www.livemint.com/market/stock-market-news/adani-group-enterprises-news-live-updates-share-price-hindenburg-row-11675049205070.html" style="color: black; font-weight: bold;">
+                    Adani LIVE: Bank of Baroda to continue giving loans to Adani Group, report claims
+                    </a>
+                </li>
+                
+                <li style="font-size: 25px; font-style: italic; background-color: white;">
+                    <center>
+                    <img src="images/itc.png" width="45px" height="30px" style="border: solid 1px black; padding: 5px;">
+                    </center>
+                    <a href="https://www.livemint.com/market/stock-market-news/nine-of-top-10-firms-add-rs-1-88-lakh-cr-in-m-cap-itc-biggest-winner-11675571883243.html" style="color: black; font-weight: bold;">
+                    Nine of top 10 firms add ₹1.88 lakh cr in m-cap; ITC biggest winner
+                    </a>
+                </li>
+                <li style="font-size: 25px; font-style: italic; background-color: white;">
+                    <center>
+                    <img src="images/nasdaq.png" width="65px" height="30px" style="border: solid 1px black; padding: 5px;">
+                    </center>
+                    <a href="https://www.livemint.com/market/stock-market-news/us-stocks-wall-street-opens-lower-as-big-job-gains-fan-inflation-fears-11675435665847.html" style="color: black; font-weight: bold;">
+                    US Stocks: Wall Street opens lower as big job gains fan inflation fears
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+
+    </body>
+</html>
